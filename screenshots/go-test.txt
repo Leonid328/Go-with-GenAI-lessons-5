@@ -1,0 +1,53 @@
+?   	github.com/softserve/go-with-genai-topic4-error-handling/task0_refactor/cmd/app	[no test files]
+=== RUN   TestAdd
+--- PASS: TestAdd (0.00s)
+=== RUN   TestSubtract
+--- PASS: TestSubtract (0.00s)
+=== RUN   TestMultiply
+--- PASS: TestMultiply (0.00s)
+=== RUN   TestDivide_Normal
+--- PASS: TestDivide_Normal (0.00s)
+=== RUN   TestDivide_ByZero
+--- PASS: TestDivide_ByZero (0.00s)
+PASS
+ok  	github.com/softserve/go-with-genai-topic4-error-handling/task0_refactor/internal/calculator	(cached)
+=== RUN   TestWordCount_Normal
+--- PASS: TestWordCount_Normal (0.00s)
+=== RUN   TestWordCount_Empty
+--- PASS: TestWordCount_Empty (0.00s)
+=== RUN   TestCharCount
+--- PASS: TestCharCount (0.00s)
+PASS
+ok  	github.com/softserve/go-with-genai-topic4-error-handling/task0_refactor/internal/textanalyzer	(cached)
+=== RUN   TestValidateRegistration_AllValid
+--- PASS: TestValidateRegistration_AllValid (0.00s)
+=== RUN   TestValidateRegistration_EmptyEmail
+--- PASS: TestValidateRegistration_EmptyEmail (0.00s)
+=== RUN   TestValidateRegistration_ShortPassword
+--- PASS: TestValidateRegistration_ShortPassword (0.00s)
+=== RUN   TestValidateRegistration_InvalidAge
+=== RUN   TestValidateRegistration_InvalidAge/negative
+=== RUN   TestValidateRegistration_InvalidAge/too_old
+--- PASS: TestValidateRegistration_InvalidAge (0.00s)
+    --- PASS: TestValidateRegistration_InvalidAge/negative (0.00s)
+    --- PASS: TestValidateRegistration_InvalidAge/too_old (0.00s)
+=== RUN   TestValidateRegistration_ReportsAllInvalidFieldsAtOnce
+--- PASS: TestValidateRegistration_ReportsAllInvalidFieldsAtOnce (0.00s)
+=== RUN   TestValidateRegistration_ErrorMessageIsReadable
+--- PASS: TestValidateRegistration_ErrorMessageIsReadable (0.00s)
+PASS
+ok  	github.com/softserve/go-with-genai-topic4-error-handling/task1_validation	(cached)
+=== RUN   TestDo_SucceedsOnFirstAttempt
+--- PASS: TestDo_SucceedsOnFirstAttempt (0.00s)
+=== RUN   TestDo_SucceedsAfterRetries
+--- PASS: TestDo_SucceedsAfterRetries (0.00s)
+=== RUN   TestDo_ExhaustsAttemptsAndReturnsWrappedError
+--- PASS: TestDo_ExhaustsAttemptsAndReturnsWrappedError (0.00s)
+=== RUN   TestDo_RespectsMaxAttempts
+--- PASS: TestDo_RespectsMaxAttempts (0.00s)
+=== RUN   TestDo_DoesNotRetryNonTemporaryErrors
+--- PASS: TestDo_DoesNotRetryNonTemporaryErrors (0.00s)
+=== RUN   TestDo_WaitsBackoffBetweenAttempts
+--- PASS: TestDo_WaitsBackoffBetweenAttempts (0.04s)
+PASS
+ok  	github.com/softserve/go-with-genai-topic4-error-handling/task2_retry	(cached)
